@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar ul {
+    
+     font-weight: bold;
+     display: flex;
+     gap: 50px;
+     text-align: center;
+     padding-left: 80%;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: #2e1de8;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px;
+}
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.header{
+    width: 100%;
+    height: 150%;
+    background-image: url(/Images/IMG12.avif);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 80px;
+    
+}
+
+.header-content {
+    
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+    color: yellow;
+    
+
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background: #0f02fd;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: bisque;
+
+    
+
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #0335fc;
+    border-radius: 30px;
+    color: whitesmoke;
+
+}
+
+.foot{
+    background-color: gray;
+    font-size: 20px;
+    padding-left: 26%;
+}
+
+#props{
+    border-radius: 10px;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#edulogo{
+    width: 50px;
+}
