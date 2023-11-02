@@ -1,4 +1,5 @@
 *{
+
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -18,7 +19,8 @@ ul {
      display: flex;
      gap: 50px;
      text-align: center;
-     padding-left: 80%;
+     padding-left: 60%;
+     font-size: 20px;
 }
 
 .navbar ul li{
@@ -26,7 +28,7 @@ ul {
 }
 
 .navbar ul li a{
-    color: #2e1de8;
+    color: #dee81d;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500px;
@@ -64,14 +66,14 @@ ul {
 
 .header-content h2 {
     font-size: 4vmin;
-    color: yellow;
+    color: blue;
     
 
 }
 .line {
     width: 150px;
     height: 4px;
-    background: #0f02fd;
+    background:  #93B1A6;
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -79,7 +81,7 @@ ul {
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 30px;
-    color: bisque;
+    color: blue ;
 
     
 
@@ -87,24 +89,33 @@ ul {
 
 .ctn {
     padding: 8px 15px;
-    background: #0335fc;
+    background:  #93B1A6;
     border-radius: 30px;
-    color: whitesmoke;
+    color: black;
 
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    font-size:20px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
 
 .foot{
     background-color: gray;
     font-size: 20px;
-    padding-left: 26%;
+    text-align: center;
+
 }
 
 #props{
     border-radius: 10px;
-    background-color: yellow;
+    background-color: #93B1A6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#edulogo{
-    width: 50px;
 }
