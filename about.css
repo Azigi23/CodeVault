@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+} 
+body{
+    background-color: white;
+}
+#header{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/book2.jpeg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 150px;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.about-col-1{
+    margin-top: 300px;
+}
+span{
+    color: blue;
+}
+.about-col-1 p{
+    margin-top: 40px;
+}
+.about-col-2 img{
+    margin-top: 100px;
+    margin-left: -250px;
+
+}
+.about-col-3{
+    display: inline;
+    flex: 10px;
+    position: absolute;
+}
+.about-col-3 h1{
+    padding: 20px;    
+}
+.about-col-3 p{
+    padding: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.about-col-4 img{
+    padding-left: 200px;
+    margin-left: -125px;
+    margin-top: 80px;
+    font-size: large;
+}
+.about-col-5 h1{
+    margin-left: -1790px;
+        
+}
+.about-col-5{
+    display: inline;
+    flex: 10px;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -80px;
+}
+.about-col-5 p{
+    margin-left: -1700px;
+    margin-top: -20px;
+}
+.about-col-5 img{
+    width: 60%;
+    height: 400px;
+}
+ h2{
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
